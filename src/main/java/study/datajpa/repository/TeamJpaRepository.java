@@ -10,7 +10,7 @@ import study.datajpa.entity.Team;
 
 @Repository
 @RequiredArgsConstructor
-public class TeamRepository {
+public class TeamJpaRepository {
   @PersistenceContext
   private EntityManager em;
 
